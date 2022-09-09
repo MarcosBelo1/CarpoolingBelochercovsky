@@ -84,6 +84,21 @@ footer{
     justify-content: center;
     }
 
+    .cond1:hover {
+        transform: scale(1.15);
+        transition: all 1.5s;
+        }
+    
+    .cond2:hover {
+        transform: scale(1.15);
+        transition: all 1.5s;
+        }
+    
+    .cond3:hover {
+        transform: scale(1.15);
+        transition: all 1.5s;
+        }
+    
 /*Quiero viajar*/
 .contenedorpadreviajar{
     display: grid;
