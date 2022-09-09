@@ -2,8 +2,9 @@
 padding: 0;}
 
 header{    
-    background-color: cyan;
-       top: 0;
+    background-color: rgb(25,237,206);
+    background-image: radial-gradient(circle, rgba(25,237,206,0.9976365546218487) 10%, rgba(45,253,79,1) 100%);;
+    top: 0;
     position: sticky;
 }
 
