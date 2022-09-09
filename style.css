@@ -1,0 +1,115 @@
+*{margin: 5px;
+padding: 0;}
+
+header{    
+    background-color: cyan;
+    top: 0;
+    position: sticky;
+}
+
+.Encabezado {
+    display: grid;
+    place-items: center;
+}
+
+h1{ 
+    color:blueviolet; font-family: Exo, sans-serif;
+    font-size: 40px;
+}
+
+h2{ 
+    color:blueviolet; font-family: exo, sans-serif; font-size: 30px;
+}
+
+nav ul li {
+    height: 20px;
+    display: inline-block;
+}
+
+nav ul li:hover{
+    background-color: rgb(0, 174, 255);
+}
+
+ul li a{
+    font-family: exo, sans serif;
+    font-size: 50;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px dotted rgb(105, 13, 128);
+    padding: 5px;
+}
+
+section {
+    padding: 20px 10px 20px 10px;
+    margin-left: 10px;
+    background-color:  rgb(179, 250, 250);
+}
+
+.explica{
+    font-family: exo, serif;
+    font-weight: bolder;
+}
+
+.titulo{
+    font-family:exo, sans-serif;
+}
+
+
+footer{
+    background-color:rgb(252, 188, 252);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+/*index*/
+.fotosHome{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+    justify-items: center;
+}
+ 
+.videoprese {
+    display: flex;
+    justify-content: center;
+}
+ 
+/*Quiero llevar*/    
+.fotoconductores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Quiero viajar*/
+.contenedorpadreviajar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr, 1fr;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+/*media queries*/
+@media only screen and (max-width: 576px){
+
+    /*index*/
+.fotosHome{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4fr;
+    background-color: lightskyblue;
+
+}
+
+    /*quiero viajar*/
+.contenedorpadreviajar{
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+    background-color: lightskyblue;
+}
+    
+}
