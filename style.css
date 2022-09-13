@@ -85,7 +85,7 @@ footer{
     justify-content: center;
     }
 
-    .cond1:hover {
+    .cond1{
         transform: scale(1.15);
         transition: all 1.5s;
         }
