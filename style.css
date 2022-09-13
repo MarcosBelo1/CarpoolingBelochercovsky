@@ -94,10 +94,14 @@ footer{
     color: blueviolet;
 }
 
+.card-body {
+    background-color: white;
+}
+
 .btn {
     background-color: mediumorchid;
     border: 1px solid mediumorchid;
-}
+    }
 
 
 .btn:hover{
