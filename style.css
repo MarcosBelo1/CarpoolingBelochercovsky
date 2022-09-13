@@ -6,6 +6,7 @@ header{
     background-image: radial-gradient(circle, rgba(25,237,206,0.9976365546218487) 10%, rgba(45,253,79,1) 100%);;
     top: 0;
     position: sticky;
+    z-index: 101;
 }
 
 .Encabezado {
@@ -46,6 +47,9 @@ section {
     background-color:  rgb(179, 250, 250);
 }
 
+
+
+
 .explica{
     font-family: exo, serif;
     font-weight: bolder;
@@ -79,7 +83,32 @@ footer{
 }
  
 /*Quiero llevar*/    
-.fotoconductores{
+
+.cardconductores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-title {
+    color: blueviolet;
+}
+
+.btn {
+    background-color: mediumorchid;
+    border: 1px solid mediumorchid;
+}
+
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+        
+    }
+
+
+
+/* .fotoconductores{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -98,7 +127,7 @@ footer{
     .cond3:hover {
         transform: scale(1.15);
         transition: all 1.5s;
-        }
+        } */
     
 /*Quiero viajar*/
 .contenedorpadreviajar{
