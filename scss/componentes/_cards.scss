@@ -1,0 +1,25 @@
+.cardconductores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-title {
+    color: blueviolet;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.btn {
+    background-color: mediumorchid;
+    border: 1px solid mediumorchid;
+    }
+
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+        
+    }

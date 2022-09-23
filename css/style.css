@@ -1,0 +1,139 @@
+* {
+  margin: 5px;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(25, 237, 206);
+  background-image: radial-gradient(circle, rgba(25, 237, 206, 0.9976365546) 10%, rgb(45, 253, 79) 100%);
+  top: 0;
+  position: sticky;
+  z-index: 101;
+}
+header nav ul li {
+  height: 20px;
+  display: inline-block;
+}
+header nav ul li:hover {
+  background-color: rgb(0, 174, 255);
+}
+header nav ul a {
+  font-family: exo, sans serif;
+  font-size: 50;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px dotted rgb(105, 13, 128);
+  padding: 5px;
+}
+
+.navbar {
+  --bs-navbar-padding-x: none;
+}
+
+.bg-light {
+  --bs-bg-opacity: 0;
+}
+
+.nav-link {
+  color: black;
+  border: 1.5px dotted black;
+  border-radius: 5px;
+  transition: transform 0.5s;
+  text-align: center;
+}
+
+.nav-link:hover {
+  transform: scale(1.05);
+  background-color: #2dfd4f;
+  color: rgb(7, 23, 248);
+}
+
+.nav-link.active:hover {
+  transform: scale(1.05);
+  background-color: #2dfd4f;
+  color: rgb(7, 23, 248);
+}
+
+.Encabezado {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  color: blueviolet;
+  font-family: Exo, sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  color: blueviolet;
+  font-family: exo, sans-serif;
+  font-size: 30px;
+}
+
+section {
+  padding: 20px 10px 20px 10px;
+  margin-left: 10px;
+  background-color: rgb(179, 250, 250);
+}
+
+.fotosHome {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.videoprese {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: rgb(252, 188, 252);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.explica {
+  font-family: exo, serif;
+  font-weight: bolder;
+}
+
+.contenedorpadreviajar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr, 1fr, 1fr;
+  gap: 5px;
+  justify-items: center;
+  align-items: center;
+}
+
+.cardconductores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-title {
+  color: blueviolet;
+}
+
+.card-body {
+  background-color: white;
+}
+
+.btn {
+  background-color: mediumorchid;
+  border: 1px solid mediumorchid;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+/*# sourceMappingURL=style.css.map */
