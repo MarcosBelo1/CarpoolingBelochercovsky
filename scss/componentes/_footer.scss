@@ -1,0 +1,11 @@
+footer{
+    background-color:nth($colores, 4);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.explica{
+    font-family: exo, serif;
+    font-weight: bolder;
+}
