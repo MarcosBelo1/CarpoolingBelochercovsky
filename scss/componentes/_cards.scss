@@ -13,13 +13,12 @@
 }
 
 .btn {
-    background-color: mediumorchid;
-    border: 1px solid mediumorchid;
+    background-color: map-get($btn, $key:bg-color);
+    border: map-get($btn, border);
     }
 
 
 .btn:hover{
-    transform: scale(1.1);
-    transition: all 1s;
-        
+    transform: map-get($btn-hover, transform );
+    transition: map-get($btn-hover ,transition);
     }
