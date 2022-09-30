@@ -4,7 +4,7 @@
   color: rgb(7, 23, 248);
 }
 
-.home4, .home3, .home2, .home1 {
+.fotoequipo, .home4, .home3, .home2, .home1 {
   width: 100%;
 }
 
@@ -156,6 +156,9 @@ footer {
 .btn {
   background-color: mediumorchid;
   border: 1px solid mediumorchid;
+}
+.btn:hover {
+  background-color: rgb(0, 174, 255);
 }
 
 .btn:hover {

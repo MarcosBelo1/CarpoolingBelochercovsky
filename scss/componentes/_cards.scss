@@ -15,6 +15,9 @@
 .btn {
     background-color: map-get($btn, $key:bg-color);
     border: map-get($btn, border);
+   &:hover{
+    background-color: nth($colores, 2 );
+   } 
     }
 
 
