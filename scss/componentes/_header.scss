@@ -50,19 +50,39 @@ header{
     .nav-link.active:hover{
         @extend %navegador-hover;
     }
+
+    .navbar-toggler-icon {
+        display: grid;
+        place-items: right;
+
+    }
     
 .Encabezado {
     display: grid;
     place-items: center;
 }
-h1{ 
+.titulo1{ 
     color: nth($colores, 3 ); font-family: Exo, sans-serif;
     font-size: 40px;
+    @media only screen and (max-width: 576px){
+        font-size: 25px;
+    }
 }
 
-h2{ 
+.titulo2{ 
     color:nth($colores, 3 ); font-family: exo, sans-serif; font-size: 30px;
+    @media only screen and (max-width: 576px){
+        font-size: 17px;
+    }
 }
+
+.titulo3{ 
+    color:nth($colores, 3 ); font-family: exo, sans-serif; font-size: 30px;
+    @media only screen and (max-width: 576px){
+        font-size: 17px;
+    }
+}
+
 
 section {
     @include espacioSection (40px);

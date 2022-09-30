@@ -4,6 +4,10 @@
   color: rgb(7, 23, 248);
 }
 
+.home4, .home3, .home2, .home1 {
+  width: 100%;
+}
+
 * {
   margin: 5px;
   padding: 0;
@@ -48,21 +52,47 @@ header nav ul a {
   text-align: center;
 }
 
+.navbar-toggler-icon {
+  display: grid;
+  place-items: right;
+}
+
 .Encabezado {
   display: grid;
   place-items: center;
 }
 
-h1 {
+.titulo1 {
   color: blueviolet;
   font-family: Exo, sans-serif;
   font-size: 40px;
 }
+@media only screen and (max-width: 576px) {
+  .titulo1 {
+    font-size: 25px;
+  }
+}
 
-h2 {
+.titulo2 {
   color: blueviolet;
   font-family: exo, sans-serif;
   font-size: 30px;
+}
+@media only screen and (max-width: 576px) {
+  .titulo2 {
+    font-size: 17px;
+  }
+}
+
+.titulo3 {
+  color: blueviolet;
+  font-family: exo, sans-serif;
+  font-size: 30px;
+}
+@media only screen and (max-width: 576px) {
+  .titulo3 {
+    font-size: 17px;
+  }
 }
 
 section {

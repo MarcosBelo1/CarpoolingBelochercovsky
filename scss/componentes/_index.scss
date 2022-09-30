@@ -11,3 +11,20 @@
     display: flex;
     justify-content: center;
 }
+
+.home1 {
+   @extend %size-fotoshome
+     
+}
+.home2 {
+    @extend %size-fotoshome
+      
+ }
+ .home3{
+    @extend %size-fotoshome
+      
+ }
+ .home4 {
+    @extend %size-fotoshome
+      
+ }
