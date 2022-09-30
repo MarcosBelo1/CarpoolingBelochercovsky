@@ -138,6 +138,16 @@ footer {
   justify-items: center;
   align-items: center;
 }
+@media only screen and (max-width: 768px) {
+  .contenedorpadreviajar {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+.viaj3 {
+  width: 100%;
+}
 
 .cardconductores {
   display: flex;
