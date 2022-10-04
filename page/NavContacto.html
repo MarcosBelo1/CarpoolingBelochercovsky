@@ -42,11 +42,30 @@
     </header>
 
     <section>
-        <div>
-            <h2>Contactate con nosotros y sacate todas las dudas</h2>
-            <img src="../Imagenes/form.png" width="900" height="900" alt="">
-            <img src="../Imagenes/botonenviar.jpg" height="150" width="150" alt="">
-        </div>
+      <div class="contenedor-formulario">
+        <form action="" method="get" class="formulario">
+            <div class="contacto">
+                <h2 class="formulario-titulo">Contactanos y enterate de como podes ser parte de la comunidad</h1>
+            </div>
+
+            <label for="nombre" class="form-titulo">Nombre</label>
+            <input type="text" id="nombre" class="form-cuadro" required="">
+
+            <label for="apellido" class="form-titulo">Apellido</label>
+            <input type="text" id="apellido" class="form-cuadro" required="">
+
+            <label for="email" class="form-titulo">Email</label>
+            <input type="email" id="email" class="form-cuadro" required="">
+
+            <label for="Tel. celular" class="form-titulo">Tel. Celular</label>
+            <input type="number" id="Tel. celular" class="form-cuadro" required="">
+
+            <label for="Consulta" class="form-titulo">Consulta</label>
+            <textarea id="Consulta" class="form-texto" required=""></textarea>
+
+            <input type="submit" class="boton-enviar" value="Enviar">
+        </form>
+    </div>
 
     </section>
 

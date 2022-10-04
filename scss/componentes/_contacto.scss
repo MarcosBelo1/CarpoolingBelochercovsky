@@ -1,0 +1,35 @@
+.contenedor-formulario{
+    background-color: none;
+    display: block;
+    justify-content: center;
+}
+
+.form-titulo{
+    display: block;
+    font-family: exo;
+}
+
+.form-cuadro {
+    width: 60%;
+    height: 100%;
+   
+}
+
+.form-texto {
+    width: 60%;
+}
+
+.boton-enviar{
+    display: block;
+    width: 150px;
+    background-color: map-get($btn, $key:bg-color);
+    border: map-get($btn, border);
+
+    &:hover{
+        background-color: nth($colores, 2 );
+       } 
+    
+    }
+
+
+   

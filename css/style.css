@@ -4,7 +4,11 @@
   color: rgb(7, 23, 248);
 }
 
-.fotoequipo, .home4, .home3, .home2, .home1 {
+.home4, .home3, .home2, .home1 {
+  width: 90%;
+}
+
+.fotoequipo {
   width: 100%;
 }
 
@@ -112,6 +116,11 @@ section {
   justify-content: center;
   justify-items: center;
 }
+@media only screen and (max-width: 450px) {
+  .fotosHome {
+    display: block;
+  }
+}
 
 .videoprese {
   display: flex;
@@ -179,6 +188,36 @@ footer {
 .btn:hover {
   transform: scale(1.1);
   transition: all 1s;
+}
+
+.contenedor-formulario {
+  background-color: none;
+  display: block;
+  justify-content: center;
+}
+
+.form-titulo {
+  display: block;
+  font-family: exo;
+}
+
+.form-cuadro {
+  width: 60%;
+  height: 100%;
+}
+
+.form-texto {
+  width: 60%;
+}
+
+.boton-enviar {
+  display: block;
+  width: 150px;
+  background-color: mediumorchid;
+  border: 1px solid mediumorchid;
+}
+.boton-enviar:hover {
+  background-color: rgb(0, 174, 255);
 }
 
 /*# sourceMappingURL=style.css.map */
