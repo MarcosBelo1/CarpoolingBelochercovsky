@@ -4,6 +4,11 @@
     justify-content: center;
 }
 
+.formulario {
+    display: grid;
+    place-items: left;
+}
+
 .form-titulo{
     display: block;
     font-family: exo;
@@ -12,7 +17,6 @@
 .form-cuadro {
     width: 60%;
     height: 100%;
-   
 }
 
 .form-texto {
@@ -22,6 +26,8 @@
 .boton-enviar{
     display: block;
     width: 150px;
+    margin-top: 15px;
+    padding: 3px;
     background-color: map-get($btn, $key:bg-color);
     border: map-get($btn, border);
 

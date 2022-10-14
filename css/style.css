@@ -196,6 +196,11 @@ footer {
   justify-content: center;
 }
 
+.formulario {
+  display: grid;
+  place-items: left;
+}
+
 .form-titulo {
   display: block;
   font-family: exo;
@@ -213,6 +218,8 @@ footer {
 .boton-enviar {
   display: block;
   width: 150px;
+  margin-top: 15px;
+  padding: 3px;
   background-color: mediumorchid;
   border: 1px solid mediumorchid;
 }
